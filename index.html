@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculatrice scientifique Lotfi Khaled
+        </title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>
+                    Calculatrice scientifique Lotfi Khaled
+                </h1>
+            </header>
+            <section>
+                     <div id="calculatice">
+                         <div id="marque">
+                             <h3>Calc Lotfi</h3>
+                             
+                             <input type="text" name="afficheur" id="afficheur" disabled>
+                         </div>
+                         <div id="corp">
+                             <div id="div1">
+                                <input type="button" value="H/M/S" >
+                                <input type="button" value="&#8730;" id="racine">
+                                <input type="button" value="%" onclick="operation(this.id)" >
+                                <input type="button" value="Tax-" >
+                                <input type="button" value="Tax+" >
+                            </div>
+                            <div id="div2">
+                                <div id="div21">
+                                     <input type="button" value="+/-" id="oposetif">
+                                     <input type="button" value="MRC" >
+                                     <input type="button" value="M-" >
+                                     <input type="button" value="M+" >
+                                     <input type="button" value="Del" id="del">
+                                     <input type="button" value="7"  id="7" onclick="getNbr(this.id)">
+                                     <input type="button" value="8"  id="8" onclick="getNbr(this.id)">
+                                     <input type="button" value="9"  id="9" onclick="getNbr(this.id)">
+                                     <input type="button" value="C" id="switch">
+                                     <input type="button" value="4"  id="4" onclick="getNbr(this.id)">
+                                     <input type="button" value="5"  id="5" onclick="getNbr(this.id)">
+                                     <input type="button" value="6"  id="6" onclick="getNbr(this.id)">
+                                     <input type="button" value="AC" >
+                                     <input type="button" value="1"  id="1" onclick="getNbr(this.id)">
+                                     <input type="button" value="2"  id="2" onclick="getNbr(this.id)">
+                                     <input type="button" value="3"  id="3" onclick="getNbr(this.id)">
+                                     <input type="button" value="0"  id="0" onclick="getNbr(this.id)">
+                                     <input type="button" value="00" id="00" onclick="getNbr(this.id)">
+                                     <input type="button" value="."  id="dot" onclick="getNbr(this.id)">
+                                     <input type="button" value="="   id="equal" onclick="operation(this.id)">
+                                </div>
+                                <div id="div22">
+                                    <input type="button" value="/" id="divi" onclick="operation(this.id)">
+                                    <input type="button" value="*" id="mult" onclick="operation(this.id)">
+                                    <input type="button" value="-" id="subs" onclick="operation(this.id)">
+                                    <input  type="button" value="+" id="add" onclick="operation(this.id)">
+
+                                </div>
+                            </div>
+                         
+                        </div>
+
+                     </div>
+
+            </section>
+        
+        </div>
+        
+
+    <script src="calc.js"></script>    
+    </body>
+</html>

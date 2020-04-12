@@ -1,0 +1,87 @@
+body{
+    background-color: silver;
+    padding-bottom: 100px;
+    
+}
+#container{
+    width: 400px;
+    height: 600px;
+    /*background-color: darkorange;*/
+    margin: auto;
+    margin-top: 100px;
+}
+h1{
+    /*color: rgb(red, green, blue);*/
+    text-align: center;
+}
+#calculatice{
+    width: 320px;
+    height: 370px;
+    margin: auto;
+    background-color: rgba(103, 197, 183, 0.844);
+    border: 1px solid  rgb(103, 197, 183);
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 3px 3px 20px black,
+                4px 4px 5px blue;
+}
+#marque{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#marque h3{
+   /* text-align: center;*/
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bold;
+   
+}
+#afficheur{
+    background-color:  rgba(33, 34, 34, 0.753);
+    
+    width: 300px ;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+#corp{
+    width:300px ;
+    margin: auto;
+    background-color: rgba(186, 238, 230, 0.844);
+    border-radius: 10px;
+   /* background-color: chocolate;*/
+}
+#div1 input{
+    width: 50px;
+    height: 20px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: bold;
+    background-color:  rgba(19, 133, 116, 0.844);
+    
+}
+#div2{
+    display: flex;
+}
+#div2 input{
+    width: 50px;
+    height: 30px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    font-weight: bold;
+    background-color:  rgba(19, 133, 116, 0.844);
+}
+#div22{
+    /*
+    height: 180px;
+    background-color: chartreuse;
+    */
+    margin-right: 3px;
+}
+#div22 #add{
+    height: 66px;
+}
+
